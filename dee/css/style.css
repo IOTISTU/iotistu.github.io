@@ -4782,6 +4782,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808849e3', e
 	position: relative;
 	overflow: hidden;
 }
+.picframe a {
+	display: flex;
+	justify-content: center;
+}
 
 	
 #btn-close-x {
@@ -5222,13 +5226,19 @@ footer .widget_list li a {
 
 .schedule-item .sc-info {
 	margin-left: 20px;
-	width: 50%;
+	width: 60%;
 }
 .schedule-item .sc-info h3 {
 	font-size:18px !important;
 	margin-bottom: 0px;
 	line-height: 1.4em;
 	font-weight:bold;
+}
+.schedule-item .sc-info span + h3{
+	font-size:22px !important;
+}
+.schedule-item .sc-info h4 {
+	font-weight: bold;
 }
 .sname h3 {
 	color: #80d6ff !important;
@@ -7077,6 +7087,10 @@ a, img {
 		float: left;
 		width: 23.95%;
 	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 /* -------------------------------------------------- 
@@ -7095,6 +7109,10 @@ a, img {
 		color: #80d6ff !important;
 		padding-left: 70px;
 		padding-top: 10px;
+	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
 	}
 }
 @media only screen and (max-width: 992px) {
@@ -7514,6 +7532,10 @@ a, img {
 	.picframe {
 		width: 80%;
 	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
+	}
 	.picframe img {
 		width: 60%;
 	}
@@ -7548,7 +7570,7 @@ a, img {
 	.schedule-item .sc-info{
 		/*margin-top:20px;*/
 		text-align:left;
-		width:50%;
+		width:60%;
 	}
 	
 	.schedule-item .sc-info h3{
@@ -7603,6 +7625,10 @@ a, img {
 	}
 	.picframe {
 		width: 80%;
+	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
 	}
 	.picframe img {
 		width: 60%;
@@ -7780,6 +7806,10 @@ a, img {
 		color: #80d6ff !important;
 		padding-left: 0px;
 	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 /* -------------------------------------------------- 
@@ -7820,6 +7850,10 @@ a, img {
 		width: initial !important;
 		margin-top: 10px;
 	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media only screen and (max-width: 420px) {
@@ -7856,6 +7890,10 @@ a, img {
 	.sc-name2{
 		color: #80d6ff !important;
 		padding-left: 0px;
+	}
+	.picframe a {
+		display: flex;
+		justify-content: center;
 	}
 }
 
