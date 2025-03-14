@@ -471,7 +471,7 @@ header.de_header_2.smaller .info {
 }
 #mainmenu a {
 	display: inline-block;
-	padding: 25px 0px 25px 20px;
+	padding: 25px 0px 25px 15px;
 	line-height: 35px;
 	text-decoration: none;
 	color: #fff;
@@ -488,7 +488,7 @@ header.de_header_2.smaller .info {
 	font-family: "FontAwesome";
 	content: "\f111";
 	font-size: 6px;
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-top: 0px;
 	color: #f7c51e;
 }
@@ -604,6 +604,16 @@ header.de_header_2.smaller .info {
 	background: #eee;
 	padding: 0;
 	margin: 0;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logos{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
 /* menu toggle for mobile */
